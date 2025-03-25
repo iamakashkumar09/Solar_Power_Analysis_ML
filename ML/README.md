@@ -1,1 +1,1 @@
-THis is the section of the ML running in Google Collab or Jupyter Notebook
+This section contains jupter notebook of the project which contains all the codes related to models(Linear regressor, Random Forest Reggressor, and RNN).
