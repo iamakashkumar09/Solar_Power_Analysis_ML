@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .form-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .form-group label, .form-group input, .form-group select {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <h1>Solar Energy Prediction</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Predictions</a></li>
+            <li><a href="#">Data Analysis</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+        <h2>Live Solar Data</h2>
+        <p>Weather: Sunny ☀️ | Temperature: 30°C</p>
+        <canvas id="solarChart"></canvas>
+    </section>
+
+    <!-- Prediction Form -->
+    <section class="prediction">
+        <h2>Predict Solar Energy Output</h2>
+        <form id="predictionForm">
+            <div class="form-group">
+                <label for="dayOfYear">Day of Year:</label>
+                <input type="number" id="dayOfYear">
+                <label for="year">Year:</label>
+                <input type="number" id="year">
+                <label for="month">Month:</label>
+                <input type="number" id="month">
+            </div>
+            
+            <div class="form-group">
+                <label for="day">Day:</label>
+                <input type="number" id="day">
+                <label for="firstHour">First Hour of Period:</label>
+                <input type="number" id="firstHour">
+                <label for="isDaylight">Is Daylight:</label>
+                <select id="isDaylight">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                
+                <label for="distanceSolarNoon">Distance to Solar Noon:</label>
+                <input type="number" id="distanceSolarNoon">
+                <label for="avgTemp">Avg Temperature (Day):</label>
+                <input type="number" id="avgTemp">
+                <label for="avgWindDir">Avg Wind Direction (Day):</label>
+                <input type="number" id="avgWindDir">
+
+            </div>
+            
+            <div class="form-group">
+                
+                <label for="avgWindSpeedDay">Avg Wind Speed (Day):</label>
+                <input type="number" id="avgWindSpeedDay">
+                <label for="skyCover">Sky Cover:</label>
+                <input type="number" id="skyCover">
+                <label for="visibility">Visibility:</label>
+                <input type="number" id="visibility">
+            </div>
+            
+            <div class="form-group">
+                
+                <label for="relativeHumidity">Relative Humidity:</label>
+                <input type="number" id="relativeHumidity">
+                <label for="avgWindSpeedPeriod">Avg Wind Speed (Period):</label>
+                <input type="number" id="avgWindSpeedPeriod">
+                <label for="avgBarometricPressure">Avg Barometric Pressure (Period):</label>
+                <input type="number" id="avgBarometricPressure">
+            </div>
+
+            <button type="submit">Predict</button>
+        </form>
+        <p id="predictionResult"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
