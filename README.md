@@ -60,7 +60,7 @@ TensorFlow (deep learning)
 
 Clone this repository:
 
-git clone https://github.com/your-username/solar-power-analysis.git
+git clone https://github.com/iamakashkumar09/Solar-Power-Analysis_ML.git
 
 Navigate to the project directory:
 
