@@ -52,6 +52,10 @@ NumPy (numerical operations)
 
 Matplotlib & Seaborn (visualization)
 
+Scikit-learn (machine learning)
+
+TensorFlow (deep learning)
+
 # 🚀 Setup Instructions
 
 Clone this repository:
