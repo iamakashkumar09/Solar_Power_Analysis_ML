@@ -1,8 +1,10 @@
-📌 Project Overview
+# Solar Power Generation Analysis
+
+# 📌 Project Overview
 
 This project analyzes solar power generation data to understand the impact of environmental factors such as temperature, wind speed, sky cover, and daylight duration on energy production. By leveraging data science techniques, we aim to gain insights into optimizing solar energy efficiency.
 
-👥 Team Members
+# 👥 Team Members
 
 Akash Kumar Gaud
 
@@ -14,7 +16,7 @@ Ashish Gautam
 
 Aryan Shrikant Jadhao
 
-📂 Dataset
+# 📂 Dataset
 
 The dataset includes various features such as:
 
@@ -40,7 +42,7 @@ Relative Humidity
 
 Solar Power Output
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 Python (for data analysis and visualization)
 
@@ -50,7 +52,7 @@ NumPy (numerical operations)
 
 Matplotlib & Seaborn (visualization)
 
-🚀 Setup Instructions
+# 🚀 Setup Instructions
 
 Clone this repository:
 
@@ -68,7 +70,7 @@ Run the Jupyter Notebook:
 
 jupyter notebook
 
-📊 Exploratory Data Analysis (EDA)
+# 📊 Exploratory Data Analysis (EDA)
 
 The notebook includes:
 
@@ -78,7 +80,7 @@ Data Visualization
 
 Correlation Analysis
 
-📈 Key Insights
+# 📈 Key Insights
 
 Solar power generation peaks during midday hours.
 
@@ -86,7 +88,7 @@ High temperature and low sky cover correlate with increased solar energy product
 
 Wind speed and relative humidity have minor effects on solar output.
 
-📝 Future Scope
+# 📝 Future Scope
 
 Implement predictive modeling to forecast solar power generation.
 
